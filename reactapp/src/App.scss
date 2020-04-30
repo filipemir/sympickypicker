@@ -1,0 +1,22 @@
+.App {
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  max-width: 600px;
+  padding: 10px 70px;
+
+  .App__top-row {
+    display: flex;
+  }
+
+  .App__picker {
+    display: inline-block;
+    justify-self: start;
+  }
+
+  .App__reset {
+    display: inline-block;
+    justify-self: right;
+    margin-left: auto;
+  }
+}
