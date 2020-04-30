@@ -1,8 +1,8 @@
-from django.contrib import admin
 from django.urls import include, path
-
+from rest_framework import routers
 from . import views
 
 urlpatterns = [
-    path('diagnostics/', views.index, name='index')
+    path('symptoms/', views.SymptomsView.as_view()),
+    path('diagnoses/', views.DiagnosesView.as_view())
 ]
