@@ -1,4 +1,20 @@
-# 🏗 Under Construction 🚧
+# Symptom Picker
+
+## Development
+### Dependencies:
+* Python 3.8.x
+* Django 3.x.x
+
+### Bootup
+1. First kickstart the backend:
+    1. Run sqlite migrations: `python manage.py migrate`
+    1. Bootup the server: `python manage.py runserver`
+1. Then kickstart the react development process:
+    1. CD into the react app directory: `cd reactapp`
+    1. Install dependencies: `yarn`
+    1. Bootup the frontend development server: `yarn start` 
+
+App will be available at `http://localhost:3000`
 
 ## API
 ### `GET /api/symptoms`
