@@ -1,0 +1,22 @@
+.condition-prompt {
+    text-align: center;
+
+    .condition-prompt__par {
+        margin-bottom: 10px;
+        display: inline-block;
+    }
+
+    .condition-prompt__active,
+    .condition-prompt__hypothesis {
+        font-weight: 600;
+        text-decoration: underline;
+    }
+
+    .condition-prompt__active {
+        color: red;
+    }
+    
+    .condition-prompt__hypothesis {
+        color: green;
+    }
+}

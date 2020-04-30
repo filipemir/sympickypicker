@@ -1,0 +1,32 @@
+.results {
+    text-align: center;
+    margin-top: 20px;
+
+    .results__diagnosis {
+        font-weight: 600;
+        text-decoration: underline;
+        color: green;
+    }
+
+    .results__wrapper {
+        margin-top: 20px;
+    }
+
+    .results__result {
+        padding: 10px;
+        display: flex;
+
+        &:nth-child(2n+1) {
+            background-color: rgba(5, 5, 255, 0.1)
+        };
+    }
+
+    .results__result-name {
+        justify-self: start;
+    }
+
+    .results__result-freq {
+        justify-self: end;
+        margin-left: auto;
+    }
+}
